@@ -9,10 +9,10 @@
         <div id="title"><h1>Lista de Filmes do Eich</h1></div>
 		<!--Barra de Navegação-->
 		<div id="navbar">
-			<a href="index.html" class="nav">Filmes</a>
-			<a href="sobre.html" class="nav">Sobre</a>
+			<a href="index.php" class="nav">Filmes</a>
+			<a href="sobre.php" class="nav">Sobre</a>
 			<a href="https://www.instagram.com/eich_fernandes/" class="nav">Eich</a>
-			<a href="others.html" class="nav">Outros</a>
+			<a href="others.php" class="nav">Outros</a>
 		</div>
 		<!--Area-->
 		<div id="movies">
