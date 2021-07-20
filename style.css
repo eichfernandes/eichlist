@@ -3,7 +3,8 @@ body {background-color: #152621; color: #F2D6B3; margin: 0; font-family: sans-se
 #title{background-color: #45594E; color: #F2D6B3; padding: 0.5em;}
 h1{font-weight: bolder;}
 #text{margin: 1.5em 1em; font-size: 20px;}
-#movies{margin: 1.5em 1em; font-size: 40px;}
+#movies{margin: 1.5em 1em; font-size: 30px;}
+select,input{font-size: 30px;}
 #movies td{font-size: 26px;}
 #navbar{background-color: #45594E; top: 0; position: sticky; overflow: hidden; border-top: 6px solid #F2D6B3;}
 .nav{text-decoration: none; color: #F2D6B3; font-weight: bolder; font-size: 18px; text-align: center; float: left; width: 25%; padding-top: 10px; padding-bottom: 10px;}
@@ -13,6 +14,9 @@ h1{font-weight: bolder;}
 	#title{}
 	#movies{margin: 2.5vh 5vw}
         #text{margin: 8vh 25vw}
+        select,input{font-size: 20px;}
+        #movies{margin: 1.5em 1em; font-size: 20px;}
+        #movies td{font-size: 20px;}
 }
 table {
   border-collapse: collapse;
