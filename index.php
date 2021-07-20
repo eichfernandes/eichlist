@@ -13,22 +13,20 @@
             <?php if (empty($_POST["order"])){$order = "SELECT * FROM movies order by titulo, ano";}
                     else{$order = $_POST["order"];}; ?>
             <form method="post">
-                <div style="text-align: left; width: 50%; float: left;">Ordem: 
-                <b><?php if (empty($_POST["order"])||$_POST["order"]=="SELECT * FROM movies order by titulo, ano"){echo "Título";}
-                else if ($_POST["order"]=="SELECT * FROM movies order by ano, titulo"){echo "Ano";}
-                else if ($_POST["order"]=="SELECT * FROM movies order by diretor, titulo, ano"){echo "Diretor";}
-                else if ($_POST["order"]=="SELECT * FROM movies order by nota desc, titulo"){echo "Nota";}
-                else if ($_POST["order"]=="SELECT * FROM movies order by id desc"){echo "Recentes";}
-                ;?></b></div>
-                <div style="text-align: right; width: 50%; float: right;">Alterar:
-                <select name="order" id="order">
-                    <option id="alf" value="SELECT * FROM movies order by titulo, ano">Título</option>
-                    <option value="SELECT * FROM movies order by ano, titulo">Ano</option>
-                    <option id="dir" value="SELECT * FROM movies order by diretor, titulo, ano">Diretor</option>
-                    <option id="not" value="SELECT * FROM movies order by nota desc, titulo">Nota</option>
-                    <option id="rec" value="SELECT * FROM movies order by id desc">Recentes</option>
+                <div style="text-align: left; width: 50%; float: left;">
+                    <input type="text" name="search" value="<?php 
+                        if (!empty($_POST["search"])){echo $_POST["search"];}
+                    ?>"> <input type="submit" value="Procurar" />
+                </div>
+                <div style="text-align: right; width: 50%; float: right;">Ordenar:
+                <select name="order" id="order" onchange="this.form.submit()">
+                    <option <?php if (empty($_POST["order"])||$_POST["order"]=="SELECT * FROM movies order by titulo, ano"){echo "selected";} ?> value="SELECT * FROM movies order by titulo, ano">Título</option>
+                    <option <?php if (!empty($_POST["order"])&&$_POST["order"]=="SELECT * FROM movies order by ano, titulo"){echo "selected";} ?> value="SELECT * FROM movies order by ano, titulo">Ano</option>
+                    <option <?php if (!empty($_POST["order"])&&$_POST["order"]=="SELECT * FROM movies order by diretor, titulo, ano"){echo "selected";} ?> value="SELECT * FROM movies order by diretor, titulo, ano">Diretor</option>
+                    <option <?php if (!empty($_POST["order"])&&$_POST["order"]=="SELECT * FROM movies order by nota desc, titulo"){echo "selected";} ?> value="SELECT * FROM movies order by nota desc, titulo">Nota</option>
+                    <option <?php if (!empty($_POST["order"])&&$_POST["order"]=="SELECT * FROM movies order by id desc"){echo "Recentes";} ?> value="SELECT * FROM movies order by id desc">Recentes</option>
                 </select>
-                <input type="submit" value="Ordernar" /></div>
+                </div>
             </form>
             <br>
             <script>
@@ -43,8 +41,10 @@
                 <tr><th>Título</th><th>Ano</th><th>Diretor</th><th>Nota</th></tr>
                 <?php include "conexao.php";
                     
-                    
-                    $sql = $order;
+                    if (!empty($_POST["search"])){$sql="SELECT * FROM movies where titulo like '%".$_POST["search"].
+                            "%' or ano like '%".$_POST["search"]."%' or diretor like '%".$_POST["search"].
+                            "%' order by titulo, ano";}
+                    else {$sql = $order;};
                     header('Content-Type: text/html; charset=utf-8');
                     if ($result = $mysqli->query($sql)) {
                         /* fetch associative array */
