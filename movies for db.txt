@@ -1,0 +1,255 @@
+Filmes do Eich
+
+INSERT INTO `movies`(`titulo`, `ano`, `diretor`, `nota`) VALUES ('Um Lugar Silêncioso',2018,'John Krasinski',7.5),
+('Moana',2016,'Jon Clements e John Musker',7),
+('Valente',2012,'Brenda Chapman e Mark Andrews',6.5),
+('BirdBox',2018,'Susanne Bier',3),
+('It',2017,'Andy Muschietti',5.5),
+('MegaTubarão',2018,'Jon Turteltaub',4),
+('Logan',2017,'James Mangold',8),
+('Estrelas Além do Tempo',2016,'Theodore Melfi',8.5),
+('Extraordinário',2017,'Stephen Chbosky',7.5),
+('Koe no Katachi',2016,'Naoko Yamada',10),
+('Kimi no na Nawa',2016,'Makoto Shinkai',7.5),
+('Coraline',2009,'Henry Selick',7),
+('Piratas do Caribe: A Maldição do Pérola Negra',2003,'Gore Verbinski',7),
+('Piratas do Caribe: O Baú da Morte',2006,'Gore Verbinski',7.5),
+('Piratas do Caribe: No Fim do Mundo',2007,'Gore Verbinski',7.5),
+('Piratas do Caribe: Navegando em Águas Misteriosas',2011,'Rob Marshall',6.5),
+('Piratas do Caribe: A Vingança de Salazar',2017,'Joachim Rønning e Espen Sandberg',5),
+('Vingadores',2012,'Joss Whedon',6.5),
+('Vingadores: Era de Ultron',2015,'Joss Whedon',4),
+('Vingadores: Guerra-Infinita',2018,'Joe Russo e Anthony Russo',7.5),
+('Vingadores: Ultimato',2019,'Joe Russo e Anthony Russo',7),
+('Homem-Aranha de volta ao lar',2017,'Jon Watts',6.5),
+('Guardiões da Galáxia',2017,'James Gunn',6),
+('Dr. Estranho',2016,'Scott Derrickson',7),
+('Billy Elliot',2000,'Stephen Daldry',8),
+('O Menino do Pijama Listrado',2008,'Mark Herman',8),
+('Exterminador do Futuro',1984,'James Cameron',7),
+('Exterminador do Futuro: Dia do Julgamento',1991,'James Cameron',6.5),
+('Exterminador do Futuro: Rebelião das Máquinas',2003,'Jonathan Mostow',6),
+('Exterminador do Futuro: A Salvação',2009,'McG',3),
+('Exterminador do Futuro: Gênesis',2015,'Alan Taylor',7.5),
+('Thor',2011,'Kenneth Branagh',5.5),
+('Thor Ragnarok',2017,'Taika Watiti',6),
+('Venom',2018,'Ruben Fleischer',5.5),
+('DeadPool',2016,'Tim Miller',6.5),
+('Forest Gump',1994,'Robert Zemeckis',10),
+('The Good, The Bad and The Ugly',1966,'Sergio Leone',10),
+('Era uma Vez no Oeste',1966,'Sergio Leone',10),
+('O Ultimo Samurai',2003,'Edward Zwick',8),
+('Wolf Children',2012,'Mamoru Hasoda',7.5),
+('Okja',2017,'Bong Joon-ho',6.5),
+('Cidade de Deus',2002,'Fernando Meirelles e Kátia Lund',10),
+('Cidadão Kane',1941,'Orson Welles',8),
+('A Vida é Bela',1997,'Roberto Benigni',8.5),
+('O Fabuloso Destino de Amélie Poulain',2001,'Jean-Pierre Jeunet',8),
+('Sexto Sentido',1999,'M. Night Shyamalan',8),
+('Show de Truman',1998,'Peter Weir',9),
+('Divertidamente',2015,'Pete Docter',7),
+('Pulp Fiction',1994,'Quentin Tarantino',9),
+('La La Land',2016,'Damien Chazelle',10),
+('O Regresso',2015,'Alejandro González Iñárritu',9.5),
+('Interestelar',2014,'Christopher Nolan',10),
+('Infiltrado na Klan',2018,'Spike Lee',8.5),
+('Homem-Aranha no Aranhaverso',2018,'Peter Ramsey, Rodney Rothman e Bob Persichetti',8.5),
+('Let Me Eat Your Pancreas',2017,'Shô Tsukikawa',6),
+('Um Sonho de Liberdade',1994,'Frank Darabont',9),
+('Os Oito Odiados',2015,'Quentin Tarantino',10),
+('Watchmen',2009,'Zack Snyder',7),
+('The Shape of Water',2017,'Guillermo del Toro',8),
+('Criminal',2016,'Ariel Vromen',6),
+('Babadook',2014,'Jennifer Kent',8),
+('Hereditário',2018,'Ari Aster',10),
+('Mary and Max',200,'Adam Elliot',10),
+('Midnight in Paris',2011,'Woody Allen',7),
+('Zombieland',2009,'Ruben Fleischer',5.5),
+('Mirai no Mirai',2018,'Mamoru Hosoda',8),
+('Hotarubi no Mori E',2011,'Takahiro Omori',6.5),
+('Garden of Words',2013,'Makoto Shinkai',7.5),
+('Hinata no Aoshigure',2013,'Jun Ichikawa',6),
+('The Professional',1994,'Luc Besson',8),
+('Em Nome de Deus',1988,'Clive Donner',7),
+('A Balada de Buster Scruggs',2018,'Ethan Coen e Joel Coen',8),
+('O Todo Poderoso',2003,'Tom Shadyac',6.5),
+('O Pianista',2002,'Roman Polanski',8.5),
+('Sociedade dos Poetas Mortos',1989,'Peter Weir',10),
+('Patch Adams, O Amor é Contagioso',1998,'Tom Shadyac',9),
+('Pretty Woman',1990,'Garry Marshall',6.5),
+('Blazing Saddles',1974,'Mel Brooks',8.5),
+('Anjos da Vida - Mais Bravos que o Mar',2006,'Andrew Davis',8),
+('Get Out',2017,'Jordan Peele',8.5),
+('A Garota que Conquistou o Tempo',2006,'Mamoru Hasoda',6.5),
+('Gravity',2013,'Alfonso Cuarón',4),
+('John Wick – De Volta Ao Jogo',2014,'Chad Stahelski',7.5),
+('John Wick: Um Novo Dia Para Matar',2017,'Chad Stahelski',8),
+('Ace Ventura',1994,'Tom Shadyac',6),
+('O Homem Irracional',2015,'Woody Allen',7),
+('Déjá Vu',2006,'Tony Scott',6),
+('Ridiculous Six',2015,'Frank Coraci',6.5),
+('A Origem',2010,'Christopher Nolan',9),
+('Alita: Anjo de Combate',2019,'Robert Rodriguez',8),
+('Toy Story 4',2019,'Josh Cooley',6.5),
+('Five Feet Apart',2019,'Justin Baldoni',8),
+('A Espera de um Milagre',1999,'Frank Darabont',10),
+('Eu sou a Lenda',2007,'Francis Lawrence',6),
+('Her',2013,'Spike Jonze',9.5),
+('Sempre ao seu Lado',2009,'Lasse Hallström',6.5),
+('Marley e Eu',2008,'David Frankel',6.5),
+('Into the Wild',2008,'Sean Penn',9.5),
+('A Encruzilhada',1986,'Walter Hill',7.5),
+('I am Sam',2001,'Jessie Nelson',8.5),
+('Questão de Tempo',2013,'Richard Curtis',8),
+('Bastardos Inglórios',2009,'Quentin Tarantino',9),
+('Capitão Fantástico',2016,'Matt Ross',8.5),
+('O Pequenino',2006,'Keene Ivory Wayans',5.5),
+('As Branquelas',2004,'Keenen Ivory Wayans',6),
+('Pokémon: Detetive Pikachu',2019,'Rob Letterman',5),
+('A Princesa Prometida',1987,'Rob Reiner',9),
+('Us',2019,'Jordan Peele',8.5),
+('Rei Leão',2019,'Jon Favreau',7.5),
+('Senhor dos Anéis Sociedade do Anel',2001,'Peter Jackson',9.5),
+('Senhor dos Anéis As Duas Torres',2002,'Peter Jackson',8.5),
+('Senhor dos Anéis Retorno do Rei',2003,'Peter Jackson',10),
+('Bohemian Rhapsody',2018,'Bryan Singer e Dexter Fletcher',6.5),
+('Django Livre',2012,'Quentin Tarantino',8.5),
+('Um Drink no Inferno',1996,'Robert Rodriguez',4.5), 
+('Cães de Aluguel',1992,'Quentin Tarantino',8),
+('Once Upon a Time in Hollywood',2019,'Quentin Tarantino',8.5), 
+('Yesterday',2019,'Danny Boyle',7),
+('Coringa',2019,'Todd Phillips',8),
+('Chappie',2015,'Neill Blomkamp',7),
+('Star Wars: Episódio I',1999,'George Lucas',4.5),
+('Star Wars: Episódio IV',1977,'George Lucas',6),
+('Star Wars: Episódio V',1980,'Irvin Kershner',7),
+('Star Wars: Episódio VI',1983,'Richard Marquand',6.5),
+('Star Wars: Episódio VII',2015,'J.J.Abrams',6.5),
+('Star Wars: Episódio VIII',2017,'Rian Jonhson',6),
+('Star Wars: Episódio IX',2019,'J.J.Abrams',2.5),
+('Marriage Story',2019,'Noah Baumbach',8.5),
+('Brilho Eterno de Uma Mente Sem Lembranças',2004,'Michel Gondry',7),
+('Dois Papas',2019,'Fernando Meirelles',10),
+('Sete Vidas',2008,'Gabriele Muccino',7),
+('Moonlight',2016,'Barry Jenkins',8),
+('Diário de Uma Paixão',2004,'Nick Cassavetes',7),
+('Parasite',2019,'Boog Joon-ho',8.5),
+('Mulan',1998,'Tony Bancroft, Barry Cook',7),
+('Klaus',2019,'Sergio Pablos',8),
+('Um Cadáver Para Sobreviver',2016,'Daniel Kwan e Daniel Scheinert',8),
+('The Farewell',2019,'Lulu Wang',7.5),
+('Quatro Vidas de um Cachorro',2017,'Lasse Hallström',7),
+('Clube da Luta',1999,'David Fincher',10),
+('Hush',2016,'Mike Flanagan',8),
+('Knives Out',2019,'Rian Johnson',8.5),
+('Coração Valente',1995,'Mel Gibson',10),
+('Matrix',1999,'Lana Wachowski e Lilly Wachowski',8),
+('O Grande Ditador',1940,'Charlie Chaplin',9),
+('Jojo Rabbit',2019,'Taika Watiti',8.5),
+('Drive',2011,'Nicolas Winding Refn',9),
+('Meu Amigo Totoro',1988,'Hayao Miyzaki',7.5),
+('Viagem de Chihiro',2001,'Hayao Miyazaki',7),
+('The Prisioners',2013,'Denis Villeneuve',10),
+('Princesa Mononoke',1997,'Hayao Miyazaki',8),
+('Peixe Grande e Suas Histórias Maravilhosas"',2003,'Tim Burton',10),
+('Blade Runner',1982,'Ridley Scott',8),
+('Era uma Vez',2008,'Breno Silveira',5.5),
+('Guerra de Canudos',1996,'Sérgio Rezenda',5.5),
+('We Need To Talk About Kevin',2011,'Lynee Ramsay',8.5),
+('Up: Altas Aventuras',2009,'Pete Docter',8),
+('Clube dos Cinco',1985,'John Hughes',6.5),
+('Túmulo dos Vagalumes',1988,'Isao Takahata',7.5),
+('Rain Man',1988,'Barry Levinson',8),
+('Catch Me if You Can',2002,'Steven Spielberg',8.5),
+('12 Anos de Escravidão',2013,'Steve McQueen',9.5),
+('A Grande Aposta',2015,'Adam Mckay',7.5),
+('Baby Driver',2017,'Edgar Wright',7.5),
+('A Noiva Cadáver',2005,'Tim Burton e Mike Johnson',7),
+('O Castelo Animado',2004,'Hayao Miyzaki ',7),
+('Táxi Driver',1976,'Marin Scorsese',6.5),
+('Nightcrawler',2014,'Dan Gilroy',9),
+('The Departed',2006,'Martin Scorsese',10),
+('Vidas ao Vento',2013,'Hayao Miyzaki',8.5),
+('Ilha do Medo',2010,'Martin Scorsese',10),
+('Até o Último Homem',2016,'Mel Gibson',8.5),
+('O Resgate do Soldado Ryan',1998,'David Spielberg',8),
+('Zodiaco',2007,'David Fincher',9),
+('Os Sete Samurais',1954,'Akira Kurosawa',7.5),
+('Beowulf',2007,'Robert Zemeckis',6.5),
+('Psicose',1960,'Alfred Hitchcock',7.5),
+('Ponyo',2008,'Hayao Miyazaki',7.5),
+('Pais e Filhas',2015,'Gabriele Muccino',8),
+('Os 7 Magníficos',2016,'Antoine Fuqua',6),
+('All My Friends Are dead',2020,'Jan Belcl',6.5),
+('I Care a Lot',2020,'J Blakeson',4),
+('When Harry met Sally',1989,'Rob Reiner',8),
+('Porco Rosso',1992,'Hayao Miyazaki',8),
+('Nausicaä do Vale do Vento',1984,'Hayao Miyazaki',7.5),
+('Greedy',1994,'Jonathan Lynn,',7),
+('Ocean Waves',1993,'Tomomi Mochizuki',4.5),
+('Perfect Blue',1997,'Satoshi Kon',10),
+('Paths of Glory',1957,'Stanley Kubrick',8.5),
+('Raya e o Último Dragão',2021,'Carlos López Estrada e Don Hall',7),
+('Viva a Vida é uma Festa',2017,'Adrian Molina e Lee Unkrich',7.5),
+('Luca',2021,'Enrico Casarosa',8.5),
+('A Vida Secreta de Walter Mitty',2013,'Ben Stiller',7),
+('Soul',2020,'Pete Docter e Kemp Powers',7.5)
+
+//Recomendados//
+A Vida é Bela
+La La Land
+Um Sonho de Liberdade
+Mary and Max
+Garden of Words
+Leon the Professional
+8 Odiados
+O Pianista
+Sociedade de Poetas Mortos
+Extraordinário
+Her
+Anjos da Vida
+Five Feet Apart
+A Espera de um Milagre
+Sempre ao seu lado
+Questão de Tempo
+I am Sam
+Into the Wild
+Capitão Fantástico
+Senhor dos Anéis
+Coringa
+Once upon a time in hollywood (leia sobre Sheron Tate antes de ver)
+Marriage Story
+Brilho Eterno de uma Mente sem Lembranças
+Dois Papas
+Princesa Prometida
+Moonlight
+Braveheart
+Clube da Luta
+Matrix
+Drive
+Prisoners
+Princesa Mononoke
+Mirai no Mirai
+Koe no Katachi
+Kimi no Nawa
+Big Fish
+Blade Runner
+Túmulo dos Vagalumes
+Rain man
+Catch me if you Can
+12 anos de escravidão
+Castelo Animado
+Nightcrawler
+The Departed
+Vidas ao Vento
+Ilha do Medo
+Até o Último Homem
+Zodiaco
+Resgate do Soldado Ryan
+Ponyo
+Pais e Filhas
+Porco Rosso
+Perfect Blue
+Viva a Vida é uma Festa
+Luca
+A Vida Secreta de Walter Mitty

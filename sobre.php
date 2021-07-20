@@ -3,24 +3,18 @@
         <meta charset="UTF-8">
         <title>Sobre</title>
 		<link href="style.css" rel="stylesheet">
+                <style>#sobre{background-color: #152621}#sobre:hover{font-weight: bolder;}</style>
     </head>
     <body>
-		<!--Título-->
-        <div id="title"><h1>Lista de Filmes do Eich</h1></div>
-		<!--Barra de Navegação-->
-		<div id="navbar">
-			<a href="index.php" class="nav">Filmes</a>
-			<a href="sobre.php" class="nav">Sobre</a>
-			<a href="https://www.instagram.com/eich_fernandes/" class="nav">Eich</a>
-			<a href="others.php" class="nav">Outros</a>
-		</div>
+		<!--Cabeçalho-->
+                <?php include "header.php" ?>
 		<!--Area-->
-		<div id="movies">
+		<div id="text">
 			Não tenho muito o que dizer aqui, se você está aqui provavelmente sabe quem é o Eich.<br><br>
 			Esse site é só para eu poder registrar os filmes que eu assisti, coisa que eu já fazia, mas decidi colocar online. Caso você discorde de alguma nota dada neste blog pessoal, o problema é mais seu mesmo... Mas sei lá, se quiser é só me mandar uma mensagem e eu posso pensar no seu caso (ou não), costumo mudar as notas quando me dá vontade.<br><br>
 			As notas não devem ser levadas como uma avaliação profissional, é apenas uma brincadeira baseada na minha experiência pessoal, levo mais em consideração os filmes em si.<br><br>
 			
-			(15/07/2021) Aqui você pode ficar com uma lista de recomendados:<br><br>
+			(15-07-2021) Aqui você pode ficar com uma lista de recomendados:<br><br>
 			
 			-A Vida é Bela<br><br>
 			-La La Land<br><br>
