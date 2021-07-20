@@ -14,7 +14,7 @@
                     else{$order = $_POST["order"];}; ?>
             <form method="post">
                 <div style="text-align: left; width: 50%; float: left;">
-                    Procurar: <input type="text" name="search" value="<?php 
+                    Procurar: <input type="text" name="search" style="width: 50%;" value="<?php 
                         if (!empty($_POST["search"])){echo $_POST["search"];}
                     ?>">
                 </div>
