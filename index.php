@@ -13,14 +13,14 @@
             <?php if (empty($_POST["order"])){$order = "SELECT * FROM movies order by titulo, ano";}
                     else{$order = $_POST["order"];}; ?>
             <form method="post">
-                <div style="text-align: left; width: 10%; float: left;">Ordem: 
+                <div style="text-align: left; width: 50%; float: left;">Ordem: 
                 <b><?php if (empty($_POST["order"])||$_POST["order"]=="SELECT * FROM movies order by titulo, ano"){echo "Título";}
                 else if ($_POST["order"]=="SELECT * FROM movies order by ano, titulo"){echo "Ano";}
                 else if ($_POST["order"]=="SELECT * FROM movies order by diretor, titulo, ano"){echo "Diretor";}
                 else if ($_POST["order"]=="SELECT * FROM movies order by nota desc, titulo"){echo "Nota";}
                 else if ($_POST["order"]=="SELECT * FROM movies order by id desc"){echo "Recentes";}
                 ;?></b></div>
-                <div style="text-align: right; width: 20%; float: right;">Alterar:
+                <div style="text-align: right; width: 50%; float: right;">Alterar:
                 <select name="order" id="order">
                     <option id="alf" value="SELECT * FROM movies order by titulo, ano">Título</option>
                     <option value="SELECT * FROM movies order by ano, titulo">Ano</option>
