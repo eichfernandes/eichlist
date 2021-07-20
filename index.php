@@ -10,6 +10,27 @@
         <?php include "header.php" ?>
 	<!--Barra de Navegação-->
         <div id="movies">
+            <?php if (empty($_POST["order"])){$order = "SELECT * FROM movies order by titulo, ano";}
+                    else{$order = $_POST["order"];}; ?>
+            <form method="post">
+                <div style="text-align: left; width: 10%; float: left;">Ordem: 
+                <b><?php if (empty($_POST["order"])||$_POST["order"]=="SELECT * FROM movies order by titulo, ano"){echo "Título";}
+                else if ($_POST["order"]=="SELECT * FROM movies order by ano, titulo"){echo "Ano";}
+                else if ($_POST["order"]=="SELECT * FROM movies order by diretor, titulo, ano"){echo "Diretor";}
+                else if ($_POST["order"]=="SELECT * FROM movies order by nota desc, titulo"){echo "Nota";}
+                else if ($_POST["order"]=="SELECT * FROM movies order by id desc"){echo "Recentes";}
+                ;?></b></div>
+                <div style="text-align: right; width: 20%; float: right;">Alterar:
+                <select name="order" id="order">
+                    <option id="alf" value="SELECT * FROM movies order by titulo, ano">Título</option>
+                    <option value="SELECT * FROM movies order by ano, titulo">Ano</option>
+                    <option id="dir" value="SELECT * FROM movies order by diretor, titulo, ano">Diretor</option>
+                    <option id="not" value="SELECT * FROM movies order by nota desc, titulo">Nota</option>
+                    <option id="rec" value="SELECT * FROM movies order by id desc">Recentes</option>
+                </select>
+                <input type="submit" value="Ordernar" /></div>
+            </form>
+            <br>
             <script>
                 const tit = [];
                 const ano = [];
@@ -17,10 +38,13 @@
                     window.open("https://www.google.com/search?q="+x+" "+y, "_blank");
                 }
             </script>
+            <br>
             <table>
                 <tr><th>Título</th><th>Ano</th><th>Diretor</th><th>Nota</th></tr>
                 <?php include "conexao.php";
-                    $sql = "SELECT * FROM movies order by titulo, ano";
+                    
+                    
+                    $sql = $order;
                     header('Content-Type: text/html; charset=utf-8');
                     if ($result = $mysqli->query($sql)) {
                         /* fetch associative array */
