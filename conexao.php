@@ -11,7 +11,7 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-            $mysqli = new mysqli("sql10.freesqldatabase.com", "sql10426107", "lUDrLbdY4n", "sql10426107");
+            $mysqli = new mysqli("remotemysql.com", "xnj1RdzZLL", "Y18wRfWE9o", "xnj1RdzZLL");
             /* check connection */
             if (mysqli_connect_errno()) {
                 echo("Erro de conexão: " . mysqli_connect_error()); exit();

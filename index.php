@@ -45,7 +45,7 @@
             </script>
             <br>
             <table>
-                <tr><th>Título</th><th>Ano</th><th>Diretor</th><th>Nota</th></tr>
+                <tr class="tit1"><th>Título</th><th>Ano</th><th>Diretor</th><th>Nota</th></tr>
                 <?php include "conexao.php";
                     /* Barra de Procura */
                     if (!empty($_POST["search"])){$search = " where titulo like '%".$_POST["search"]
@@ -66,13 +66,12 @@
                         /* fetch associative array */
 
                         while ($row = $result->fetch_assoc()) {
-                            echo utf8_encode(
-                                "<script>tit[".$row["id"]."]='".$row["titulo"]."'; ano[".$row["id"]."]='".$row["ano"]."';</script>"
+                            echo "<script>tit[".$row["id"]."]='".$row["titulo"]."'; ano[".$row["id"]."]='".$row["ano"]."';</script>"
                                     
                                 . "<tr onclick='trclick(tit[".$row["id"]."],ano[".$row["id"]."]);'>"
                                 . "<td>" . $row["titulo"] . "</td><td>" . $row["ano"] . "</td><td>"
                                 . $row["diretor"] . "</td><td>" . $row["nota"]
-                                . "</td></tr>");
+                                . "</td></tr>";
                         }
                         $result->close(); /* free result set */
                     }

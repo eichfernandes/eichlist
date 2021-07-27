@@ -26,3 +26,4 @@ td, th {
   border-bottom: 1px solid #bbb; text-align: left; padding: 10px;
 }
 tr:hover{background-color: #667367;}
+tr.tit1:hover{background-color: #152621;}

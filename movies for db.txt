@@ -1,7 +1,7 @@
 Filmes do Eich
 
 INSERT INTO `movies`(`titulo`, `ano`, `diretor`, `nota`) VALUES ('Um Lugar Silêncioso',2018,'John Krasinski',7.5),
-('Moana',2016,'Jon Clements e John Musker',7),
+('Moana',2016,'Ron Clements e John Musker',7),
 ('Valente',2012,'Brenda Chapman e Mark Andrews',6.5),
 ('BirdBox',2018,'Susanne Bier',3),
 ('It',2017,'Andy Muschietti',5.5),
@@ -147,7 +147,7 @@ INSERT INTO `movies`(`titulo`, `ano`, `diretor`, `nota`) VALUES ('Um Lugar Silên
 ('O Grande Ditador',1940,'Charlie Chaplin',9),
 ('Jojo Rabbit',2019,'Taika Watiti',8.5),
 ('Drive',2011,'Nicolas Winding Refn',9),
-('Meu Amigo Totoro',1988,'Hayao Miyzaki',7.5),
+('Meu Amigo Totoro',1988,'Hayao Miyazaki',7.5),
 ('Viagem de Chihiro',2001,'Hayao Miyazaki',7),
 ('The Prisioners',2013,'Denis Villeneuve',10),
 ('Princesa Mononoke',1997,'Hayao Miyazaki',8),
@@ -165,11 +165,11 @@ INSERT INTO `movies`(`titulo`, `ano`, `diretor`, `nota`) VALUES ('Um Lugar Silên
 ('A Grande Aposta',2015,'Adam Mckay',7.5),
 ('Baby Driver',2017,'Edgar Wright',7.5),
 ('A Noiva Cadáver',2005,'Tim Burton e Mike Johnson',7),
-('O Castelo Animado',2004,'Hayao Miyzaki ',7),
+('O Castelo Animado',2004,'Hayao Miyazaki ',7),
 ('Táxi Driver',1976,'Marin Scorsese',6.5),
 ('Nightcrawler',2014,'Dan Gilroy',9),
 ('The Departed',2006,'Martin Scorsese',10),
-('Vidas ao Vento',2013,'Hayao Miyzaki',8.5),
+('Vidas ao Vento',2013,'Hayao Miyazaki',8.5),
 ('Ilha do Medo',2010,'Martin Scorsese',10),
 ('Até o Último Homem',2016,'Mel Gibson',8.5),
 ('O Resgate do Soldado Ryan',1998,'David Spielberg',8),
@@ -185,7 +185,7 @@ INSERT INTO `movies`(`titulo`, `ano`, `diretor`, `nota`) VALUES ('Um Lugar Silên
 ('When Harry met Sally',1989,'Rob Reiner',8),
 ('Porco Rosso',1992,'Hayao Miyazaki',8),
 ('Nausicaä do Vale do Vento',1984,'Hayao Miyazaki',7.5),
-('Greedy',1994,'Jonathan Lynn,',7),
+('Greedy',1994,'Jonathan Lynn',7),
 ('Ocean Waves',1993,'Tomomi Mochizuki',4.5),
 ('Perfect Blue',1997,'Satoshi Kon',10),
 ('Paths of Glory',1957,'Stanley Kubrick',8.5),
@@ -194,62 +194,3 @@ INSERT INTO `movies`(`titulo`, `ano`, `diretor`, `nota`) VALUES ('Um Lugar Silên
 ('Luca',2021,'Enrico Casarosa',8.5),
 ('A Vida Secreta de Walter Mitty',2013,'Ben Stiller',7),
 ('Soul',2020,'Pete Docter e Kemp Powers',7.5)
-
-//Recomendados//
-A Vida é Bela
-La La Land
-Um Sonho de Liberdade
-Mary and Max
-Garden of Words
-Leon the Professional
-8 Odiados
-O Pianista
-Sociedade de Poetas Mortos
-Extraordinário
-Her
-Anjos da Vida
-Five Feet Apart
-A Espera de um Milagre
-Sempre ao seu lado
-Questão de Tempo
-I am Sam
-Into the Wild
-Capitão Fantástico
-Senhor dos Anéis
-Coringa
-Once upon a time in hollywood (leia sobre Sheron Tate antes de ver)
-Marriage Story
-Brilho Eterno de uma Mente sem Lembranças
-Dois Papas
-Princesa Prometida
-Moonlight
-Braveheart
-Clube da Luta
-Matrix
-Drive
-Prisoners
-Princesa Mononoke
-Mirai no Mirai
-Koe no Katachi
-Kimi no Nawa
-Big Fish
-Blade Runner
-Túmulo dos Vagalumes
-Rain man
-Catch me if you Can
-12 anos de escravidão
-Castelo Animado
-Nightcrawler
-The Departed
-Vidas ao Vento
-Ilha do Medo
-Até o Último Homem
-Zodiaco
-Resgate do Soldado Ryan
-Ponyo
-Pais e Filhas
-Porco Rosso
-Perfect Blue
-Viva a Vida é uma Festa
-Luca
-A Vida Secreta de Walter Mitty
