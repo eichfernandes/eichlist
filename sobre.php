@@ -10,6 +10,17 @@
                 <?php include "header.php" ?>
 		<!--Area-->
 		<div id="text">
+                        <?php include "conexao.php";
+                            if ($result = $mysqli->query("select count(id) from movies")) {
+                                    /* fetch associative array */
+
+                                    while ($row = $result->fetch_assoc()) {
+                                        echo "<h2>Número de Filmes na Lista: ".$row["count(id)"]."</h2>";
+                                    }
+                                    $result->close(); /* free result set */
+                                }
+                        ?>
+                        <h1>Sobre</h1>
 			Não tenho muito o que dizer aqui, se você está aqui provavelmente sabe quem é o Eich.<br><br>
 			Esse site é só para eu poder registrar os filmes que eu assisti, coisa que eu já fazia, mas decidi colocar online. Caso você discorde de alguma nota dada neste blog pessoal, o problema é mais seu mesmo... Mas sei lá, se quiser é só me mandar uma mensagem e eu posso pensar no seu caso (ou não), costumo mudar as notas quando me dá vontade.<br><br>
 			As notas não devem ser levadas como uma avaliação profissional, é apenas uma brincadeira baseada na minha experiência pessoal, levo mais em consideração os filmes em si.<br><br>

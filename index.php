@@ -8,11 +8,12 @@
     <body>
 	<!--Cabeçalho-->
         <?php include "header.php" ?>
+        
 	<!--Barra de Navegação-->
         <div id="movies">
             <form method="post">
                 <div style="text-align: left; width: 50%; float: left;">
-                    <input placeholder="Procurar" type="text" name="search" style="width: 50%;" value="<?php 
+                    <input placeholder="Procurar " type="text" name="search" style="width: 50%;" value="<?php 
                         if (!empty($_POST["search"])){echo $_POST["search"];}
                     ?>">
                 </div>
@@ -61,7 +62,6 @@
                     }
                     
                     $sql = "SELECT * FROM movies".$search.$order;
-                    header('Content-Type: text/html; charset=utf-8');
                     if ($result = $mysqli->query($sql)) {
                         /* fetch associative array */
 

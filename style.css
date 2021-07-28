@@ -17,6 +17,7 @@ select,input{font-size: 30px;}
         select,input{font-size: 20px;}
         #movies{margin: 1.5em 1em; font-size: 20px;}
         #movies td{font-size: 20px;}
+        tr,tit1{font-size: 23px;}
 }
 table {
   border-collapse: collapse;
@@ -25,6 +26,7 @@ table {
 td, th {
   border-bottom: 1px solid #bbb; text-align: left; padding: 10px;
 }
+
 tr:hover{background-color: #667367;}
 tr.tit1:hover{background-color: #152621;}
 
