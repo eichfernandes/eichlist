@@ -27,7 +27,7 @@ td, th {
   border-bottom: 1px solid #bbb; text-align: left; padding: 10px;
 }
 
-tr:hover{background-color: #667367;}
+tr:hover{background-color: #667367; cursor: pointer;}
 tr.tit1:hover{background-color: #152621;}
 
 input,select{background-color: #152621; color: #F2D6B3; border: 3px solid #F2D6B3; outline: none; padding: 6px 6px;}
